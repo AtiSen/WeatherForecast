@@ -1,0 +1,24 @@
+<mat-sidenav-container>
+    <mat-sidenav>Start</mat-sidenav>
+           <div [formGroup]="parent">
+                <form class="example-form">
+                    <!--<mat-form-field class="example-full-width">-->
+                      <div class="example-full-width">
+                        <input type="text" id="your-input-id"  #nameValue  matInput[formControl]="country_list" value="name" [(ngModel)]="nameValue" name="name" [matAutocomplete]="auto" />
+                         <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+                                <mat-option *ngFor="let option of filteredOptions | async " [value]="option">
+                                {{option.name}}
+                                </mat-option>
+                         </mat-autocomplete>
+                    </div>
+                
+                   <!-- </mat-form-field>-->
+               
+                    <button class="number-button" #logName (buttonClicked)="showName($event)"  mat-button color="primary">+</button>
+                    
+             </form>
+         </div>
+         <mat-sidenav position="end">End</mat-sidenav>
+    </mat-sidenav-container>
+
+<!--<button (click)=showName()>Show More</button>-->

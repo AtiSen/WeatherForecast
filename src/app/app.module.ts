@@ -8,16 +8,14 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
-import { SideBarComponentComponent } from './side-bar-component/side-bar-component.component';
 import { MatButtonModule, MatMenuModule, MatSidenavModule, MatAutocompleteModule} from '@angular/material';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { Floor1Component } from './floor1/floor1.component';
 import { Room1Component } from './floor1/room1/room1.component';
 import { Room2Component } from './floor1/room2/room2.component';
-
-
-
-
+import { SideBarComponentComponent} from './side-bar-component/side-bar-component.component';
+import { ButtonEventComponent } from './side-bar-component/button-event/button-event.component';
+//import { HeaderComponent } from './side-bar/side-bar.component';
 
 
 export const route: Routes = [
@@ -39,10 +37,11 @@ export const route: Routes = [
   declarations: [
     AppComponent,
     MainComponent,
-    SideBarComponentComponent,
     Floor1Component,
     Room1Component,
-    Room2Component
+    Room2Component,
+    ButtonEventComponent,
+    SideBarComponentComponent
   ],
   imports: [
     BrowserModule,
