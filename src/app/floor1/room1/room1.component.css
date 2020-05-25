@@ -1,0 +1,17 @@
+/**************** Side-Bar************************/
+
+.range-temparature{
+    float:left;
+    width:33.3%;
+    border:1px solid #00dddd;
+}
+
+.range-humidity{
+    float:left;
+    width:33.3%;
+    border:1px solid #dddddd;
+}
+.inside-wrap{
+    width:90%;
+    border:1px solid #00dddd;
+}

@@ -1,0 +1,22 @@
+/*.left-panel{
+     width:70%;
+     border:2px solid #ff0000;
+     float:left;
+}*/
+
+.right-panel{
+    width:29%;
+    background:#dd00dd;
+    float:left;
+}
+
+
+#page-content.hidden {
+    margin-left: -200px;
+    display:hidden;
+  }
+
+
+  p[data-show="show"] {
+    display:hidden;
+  }

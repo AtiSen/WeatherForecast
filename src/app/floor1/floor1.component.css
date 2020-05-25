@@ -1,0 +1,45 @@
+.form-type{
+    width: 500px;
+    border:2px solid #ff0000;
+}
+
+.form-type .form-group label{
+    font-size:18px;
+    color:#000;
+    font-weight:lighter;
+}
+
+.form-type .form-group input{
+    width:250px;
+    height:30px;
+}
+
+.btn-success{
+    background-color:blue;
+    font-size:12px;
+    color:#fff;
+    border-radius:5px;
+    border:none;
+    width:60px;
+    height:40px;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+/**************** Side-Bar************************/
+
+.range-temparature{
+    float:left;
+    width:33.3%;
+    border:1px solid #000ddd;
+}
+
+.range-humidity{
+    float:left;
+    width:33.3%;
+    border:1px solid #dddddd;
+}
+.inside-wrap{
+    width:90%;
+    border:1px solid #00dddd;
+}
